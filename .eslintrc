@@ -1,0 +1,8 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "indent": ["error", 4, { "ignoredNodes": ["JSXElement"] }],
+    "react/jsx-indent": ["error", 4]
+  }
+}
